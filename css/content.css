@@ -1,0 +1,74 @@
+/* Page Contents CSS Styling Rules */
+
+body {
+    background-image: url("../imgs/black-chalkboard-background.jpg");
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.center-panel-content {
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+}
+
+.right-panel-text {
+    font-size: calc(var(--fontsize) * 0.5);
+    display: inline-block;
+    z-index: 2;
+    text-transform: uppercase;
+    height: fit-content;
+    text-align: center;
+    line-height: 0.9;
+}
+
+.center-panel-content:nth-child(1) {
+    grid-area: 1 / 1 / span 5 / span 5;
+    font-size: 50rem;
+    justify-content: start;
+    align-items: start;
+    z-index: 0;
+    line-height: 0.9;
+    transform: rotate(-15deg) translateX(-160px) translateZ(-10px);
+
+}
+
+.left-panel {
+    display: grid;
+    grid-template-columns: 1fr;
+    ;
+
+
+
+
+    flex-direction: column;
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.button {
+    background-color: #6e7070;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: right;
+    margin-top: -80px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+}

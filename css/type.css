@@ -1,0 +1,63 @@
+/* Type CSS Rules */
+
+:root {
+  --fontsize: 10rem;
+  --fontcolor: white;
+}
+
+.cabin-sketch-regular {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--fontcolor)
+}
+
+.cabin-sketch-bold {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--fontcolor)
+}
+
+.fredericka-the great-regular {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--fontcolor)
+}
+
+.alike-angular-regular {
+  font-family: "Alike Angular", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--fontcolor)
+}
+
+/* Font Rules */
+
+body {
+  color: var(--fontcolor)
+}
+
+h1 {
+  font-family: 'Cabin Sketch';
+  font-size: var(--fontsize);
+  margin: 0;
+  color: var(--fontcolor)
+}
+
+h2 {
+  font-family: 'Cabin Sketch';
+  color: var(--fontcolor)
+}
+
+h3 {
+  font-family: 'Cabin Sketch';
+  font-size: 30px;
+  color: var(--fontcolor);
+  text-align: center;
+}
+
+button {
+  font-family: 'Courier New', Courier;
+}
